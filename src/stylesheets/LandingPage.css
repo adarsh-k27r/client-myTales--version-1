@@ -1,0 +1,102 @@
+
+@media only screen and ( max-width:1036px ) {
+
+    .landingPage{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .background{
+        background-size: contain !important;
+    }
+
+    .semi-bold{
+        margin-left: 0 !important;
+    }
+
+    .exp{
+        margin-left: 0 !important;
+    }
+
+    .bold{
+        font-size: 30px !important;
+    }
+
+    .right{
+        height:50% !important;
+    }
+
+
+}
+
+
+
+
+.landingPage {
+    height: 90vh;
+    display: flex;
+}
+
+.left {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+    flex-direction: column;
+    margin-left: 6%;
+    width: 45%;
+    height: 95%;
+}
+
+.bold {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 4rem;
+    letter-spacing: -0.03em;
+    color: black;
+
+}
+
+.semi-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: 500.500;
+    margin-left: -11.4rem;
+    margin-bottom: 3rem;
+    color: black;
+}
+
+.exp {
+    margin-left: -276px;
+    padding: 10px 35px;
+    border: 0.5px rgba(0, 0, 0, 0.482) solid;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.155);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+.right {
+    width: 45%;
+    margin: 1% 2%;
+    height: 95%;
+    background-repeat: no-repeat;
+}
+
+.background {
+
+    background-image: url(../images/lander.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1036px) {
+
+    .bar-v{
+        max-width: 90% !important;
+        width:90% !important;
+
+
+    }
+
+    .mari{
+        margin-right: auto !important;
+    }
+
+
+}
+
+
+
+.bar-v {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    max-width:40%;
+    min-width: 40%;
+    padding: 40px;
+    margin:0 5%;
+}
+
+.tym-v {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 15px;
+
+}
+
+.month-v {
+    font-weight: 800;
+    color: #567189;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hr-d-v {
+    width: 40px;
+    border: 1.33px solid rgb(221, 221, 221);
+    margin: 5px 0;
+
+}
+
+.date-v {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.category-v {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.topic-v {
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.margin-b-v {
+    margin-bottom: 5px;
+}
+
+.bContent-v {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #567189;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.minRead-v{
+    margin-right: 55%;
+    font-weight: 400;
+    font-size: small;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(117, 117, 117, 1);
+}
+
+.mari{
+    margin-right: 16px;
+}

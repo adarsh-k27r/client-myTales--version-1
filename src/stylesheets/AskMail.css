@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1036px) {
+
+    .askMail{
+        max-height: 20vh;
+    }
+
+    .askMail-heading{
+        letter-spacing: 1px !important;
+    }
+
+
+
+}
+
+
+
+.askMail {
+    background-color: white;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.askMail input[type="text"] {
+    border: none;
+    width: 100%;
+}
+
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.askMail form {
+    display: flex;
+    background-color: white;
+    border: 0.5px rgba(255, 0, 0, 0.155) solid;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.askMail-heading {
+    font-size: large;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.sbtn {
+
+    border: 0.5px rgba(0, 0, 0, 0.482) solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: rgba(255, 0, 0, 0.155);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sbtn-posn {
+    margin-left: 10px;
+}

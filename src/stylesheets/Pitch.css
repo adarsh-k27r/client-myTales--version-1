@@ -1,0 +1,70 @@
+@media only screen and ( max-width:1036px ) {
+
+
+    .next3{
+        height:fit-content !important;
+        background-image: none !important;
+    }
+
+    .bk a{
+        margin: 2em 0;
+    }
+
+    .bk .vd{
+        font-size: 25px !important;
+    }
+
+
+}
+
+
+.next3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: url("../images/takeoff.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.bk .vd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+
+.bk .vc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.bk a {
+    background-color: rgba(255, 0, 0, 0.155);
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 2em;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1036px) {
+
+
+    .fullbgr{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rbgr{
+        position: static !important;
+        height: fit-content !important;
+        border-left: none !important;
+        width: 25% !important;
+        margin-bottom: 10%;
+    }
+
+    .rbgrImg{
+        width: 58% !important;
+    }
+
+    .cardBgr{
+        width: 100% !important;
+    }
+
+    .sec1-v{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+
+}
+
+
+
+.fullbgr{
+    display:flex;
+    width:100%;
+}
+
+.cardBgr{
+    width:80%;
+}
+
+.cardBgr h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: 900;
+    color:black;
+    letter-spacing: 2px;
+    margin: 2% 0;
+    text-align: center;
+}
+
+.sec1-v {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rbgr{
+    font-family: 'Open Sans', sans-serif;
+    width:20%;
+    height:90vh;
+    border-left: 1px solid gray;
+    background-color: white;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    position:fixed;
+    right:0;
+}
+
+.rbgrImg{
+    width:50%;
+    margin: 25% 0 2% 0;
+}
+
+.rbgrName{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin: 1% 0;
+}

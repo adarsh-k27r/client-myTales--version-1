@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1036px) {
+    .navList{
+        flex-direction: column;
+    }
+
+    .slideLeft{
+        flex-direction: column;
+        position: static !important;
+        
+    }
+
+    .tabLinks{
+        flex-direction: column;
+    }
+
+    .logo{
+        max-width: 30%;
+        height:auto;
+    }
+    .search{
+        display: none !important;
+    }
+
+    .signinLink{
+        position: static !important;
+    }
+
+    .ibtn{
+        position: relative;
+        left:4%;
+        max-width:110%;
+        margin: 15% 0;
+    }
+}
+
+
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    background-color: white;
+    border-bottom: 0.1px #5671895a solid;
+    z-index: 5;
+
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slideLeft {
+    display: flex;
+    position: relative;
+    left: -9%;
+}
+
+
+.brandLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: 10px 0;
+
+}
+
+
+
+.logo {
+    width: 60%;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10%;
+}
+
+.btn {
+    border: 1px black solid;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.ip {
+    margin-left: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.clr {
+    color: #567189;
+}
+
+
+.tabLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 80%;
+}
+
+
+
+.tabLinks a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    margin-left: 10px;
+}
+
+.tabLinks a:hover {
+    color: #FDA769;
+}
+
+.tabLinks .active {
+    color: #FDA769;
+}
+
+.signinLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+    left: 5%;
+
+}
+
+.signinLink a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+.signinLink .ibtn {
+    padding: 12px;
+}
+
+.ibtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 145%;
+    border: 0.5px rgba(255, 0, 0, 0.155) solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.signinLink .ibtn:hover {
+    color: #FF597B;
+    background-color: #ff8e9d14;
+}

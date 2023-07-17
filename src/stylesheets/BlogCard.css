@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1036px) {
+
+    .avatar{
+        width:5% !important;
+    }
+
+    .minRead{
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+    .blogHeading{
+        font-size: 20px !important;
+        font-weight: 600;
+    }
+
+
+}
+
+
+.blogCard {
+    margin: 1% 5%;
+}
+
+.line {
+    border-top: 0.5px rgba(117, 117, 117, 1) solid;
+}
+
+.upperSec {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.avatar {
+    width: 2%;
+    margin-right: 5px;
+
+}
+
+.authName {
+
+    margin: 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+}
+
+.dot {
+    color: rgba(117, 117, 117, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 4px;
+}
+
+.date {
+    margin: 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgba(117, 117, 117, 1);
+}
+
+.downSec {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.middleSec {
+    width: 100%;
+    cursor: pointer;
+}
+
+.blogHeading {
+
+    margin-bottom: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+
+}
+
+.blogCaption {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+
+}
+
+.footSec {
+    display: flex;
+    margin-top: 3%;
+}
+
+.minRead {
+    margin-right: 80%;
+    font-size: small;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(117, 117, 117, 1);
+
+}

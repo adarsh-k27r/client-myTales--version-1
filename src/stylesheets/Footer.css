@@ -1,0 +1,131 @@
+@media only screen and ( max-width:1036px ) {
+
+    .sm-i{
+        flex-direction: column-reverse;
+        height: fit-content !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-l{
+        align-items: center !important;
+        justify-content: center;
+        margin-left: 0 !important;
+       
+    }
+
+    .f-l span{
+        width:fit-content !important;
+    }
+
+    .site-l{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .siteMap{
+        text-align: center;
+        margin: 0 !important;
+    }
+
+    .ism{
+        margin-left: 0 !important;
+    }
+
+    .logo-f{
+        width:60% !important;
+    }
+
+
+
+}
+
+
+.sm-i {
+    display: flex;
+    height: 25vh;
+    background-color: whitesmoke;
+}
+
+.siteMap {
+    margin: 10px 0 0 10%;
+}
+
+
+.siteMap h3 {
+    font-size: medium;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site-l {
+    margin-top: 10px;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.site-l a{
+    text-decoration: none;
+    color:#567189;
+}
+
+.site-l li {
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.ism {
+    padding: 2%;
+    margin-left: 10%;
+}
+
+.lt {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.lt a{
+    color:black;
+}
+
+.mar {
+    margin-right: 5px;
+}
+
+.sm-i span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+
+.red:hover {
+    color: red;
+}
+
+.blue:hover {
+    color: rgb(46, 123, 255);
+}
+
+.f-l {
+    width: 30%;
+    margin-left: 18%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.f-l span {
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    color: #567189;
+}
+
+.logo-f {
+    width: 30%;
+    margin-top: 7%;
+
+}

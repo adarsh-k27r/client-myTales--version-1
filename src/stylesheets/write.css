@@ -1,0 +1,72 @@
+.w-r,.w-r form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+
+.w-r ::placeholder{
+    font-size: 25px;
+    color:#B6EADA;
+    font-weight: 900;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.w-r label{
+    font-size: larger;
+    color:#5b8fb9c0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: 2px;
+
+}
+
+.w-r input{
+    width:50%;
+    height:40px;
+    line-height: 4;
+    font-size: 20px;
+    border: 2px solid #FFD4D4;
+    border-radius: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#blog{
+    
+    width:100%;
+    font-size: 20px;
+    resize: none;
+    border: 2px solid #FFD4D4;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+
+
+}
+
+#blog:focus{
+    outline:none;
+}
+
+
+#submit{
+    color:black;
+    padding:10px 30px;
+    margin:15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
