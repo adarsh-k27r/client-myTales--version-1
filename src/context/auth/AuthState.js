@@ -4,7 +4,7 @@ import AuthContext from "./AuthContext";
 const AuthState = (props) => {
 
     
-    const host = "http://localhost:5000";
+    const host = "https://backend-my-tales.vercel.app";
 
 
     const [isAuthenticated, setIsAuthenticated] = useState(false);
